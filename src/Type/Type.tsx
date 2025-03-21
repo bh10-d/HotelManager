@@ -7,3 +7,20 @@ export type Room = {
     status: boolean,
     nameGuest: string,
 }
+
+export type InputFieldType = {
+    luutru:
+        {
+            fieldname: string,
+            fieldtype: string,
+            choose: boolean
+        }[]
+    ,
+    thongtin: 
+        {
+            fieldname: string,
+            fieldtype: string,
+            choose: boolean
+        }[]
+    
+}

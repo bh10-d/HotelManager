@@ -1,0 +1,123 @@
+[
+    {
+        "luutru": [
+            {
+                "fieldname": "Thời gian nhận phòng",
+                "fieldtype": "datetime-local",
+                "choose": false
+            },
+            {
+                "fieldname": "Thời gian trả phòng",
+                "fieldtype": "datetime-local",
+                "choose": false
+            },
+            {
+                "fieldname": "Lý do lưu trú",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Loại phòng",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Phòng",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Loại giá",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Giá phòng",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Ghi chú",
+                "fieldtype": "text",
+                "choose": false
+            }
+        ],
+        "thongtin": [
+            {
+                "fieldname": "Họ tên",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Giới tính",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Ngày sinh",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Số điện thoại",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Loại giấy tờ",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Số giấy tờ",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Quốc tịch",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Ghi chú",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Nơi cư trú",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Tỉnh thành phố",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Quận/Huyện",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Phường/Xã",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Địa chỉ chi tiết",
+                "fieldtype": "text",
+                "choose": false
+            },
+            {
+                "fieldname": "Nghề nghiệp",
+                "fieldtype": "text",
+                "choose": true
+            },
+            {
+                "fieldname": "Nơi làm việc",
+                "fieldtype": "text",
+                "choose": false
+            }
+        ]
+    }
+]
