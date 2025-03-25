@@ -24,3 +24,9 @@ export type InputFieldType = {
         }[]
     
 }
+
+export type Title = {
+    TitleCode: string,
+    Title: string,
+    HotelID: string
+}

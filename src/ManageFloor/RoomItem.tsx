@@ -17,7 +17,6 @@ const RoomItem = ({roomItem}:{roomItem:roomItem}) => {
         setIsModalOpen(false);
       };
     
-
     return (
         <>
             <div className="w-[300px] h-[100px] border-gray-200 border border-dashed rounded-md block relative bg-white">
