@@ -3,7 +3,7 @@ import { Room } from '../../types/Type';
 import { useState } from 'react';
 import ButtonFloor from "./ButtonFloor";
 import RoomItem from "./RoomItem";
-import SekeletonRoom from "../../components/ui/Sekeleton/SekeletonRoom";
+// import SekeletonRoom from "../../components/ui/Sekeleton/SekeletonRoom";
 
 const Floor = () => {
 
