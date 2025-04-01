@@ -1,9 +1,9 @@
-import data from '../Data/fakedata.json';
-import { Room } from '../Type/Type';
+import data from '../../Data/fakedata.json';
+import { Room } from '../../types/Type';
 import { useState } from 'react';
 import ButtonFloor from "./ButtonFloor";
 import RoomItem from "./RoomItem";
-import SekeletonRoom from "../Sekeleton/SekeletonRoom";
+import SekeletonRoom from "../../Sekeleton/SekeletonRoom";
 
 const Floor = () => {
 
@@ -36,7 +36,7 @@ const Floor = () => {
                                     })
                                     
                                 }
-                                <SekeletonRoom/>
+                                {/* <SekeletonRoom/> */}
                             </div>
                         </ButtonFloor>
                 ))

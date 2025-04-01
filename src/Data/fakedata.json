@@ -18,6 +18,78 @@
         "nameGuest": "BUI DUC HIEU"
     },
     {
+        "id": 1,
+        "floor": 1,
+        "nameRoom": "ABCABC",
+        "typeRoom": "VIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "VO TA TRUONG TAN"
+    },
+    {
+        "id": 2,
+        "floor": 1,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 1,
+        "floor": 1,
+        "nameRoom": "ABCABC",
+        "typeRoom": "VIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "VO TA TRUONG TAN"
+    },
+    {
+        "id": 2,
+        "floor": 1,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 1,
+        "floor": 1,
+        "nameRoom": "ABCABC",
+        "typeRoom": "VIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "VO TA TRUONG TAN"
+    },
+    {
+        "id": 2,
+        "floor": 1,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 1,
+        "floor": 1,
+        "nameRoom": "ABCABC",
+        "typeRoom": "VIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "VO TA TRUONG TAN"
+    },
+    {
+        "id": 2,
+        "floor": 1,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
         "id": 3,
         "floor": 2,
         "nameRoom": "ABCABC",
@@ -74,6 +146,213 @@
     {
         "id": 9,
         "floor": 2,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 8,
+        "floor": 2,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 9,
+        "floor": 2,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 8,
+        "floor": 2,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 9,
+        "floor": 2,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 8,
+        "floor": 2,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 9,
+        "floor": 2,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 4,
+        "floor": 3,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 5,
+        "floor": 4,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 6,
+        "floor": 4,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 5,
+        "floor": 4,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 6,
+        "floor": 4,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 5,
+        "floor": 4,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 6,
+        "floor": 4,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": false,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 5,
+        "floor": 4,
+        "nameRoom": "ABCABC",
+        "typeRoom": "SUPER VVIP",
+        "quantity": 2,
+        "status": true,
+        "nameGuest": "BUI DUC HIEU"
+    },
+    {
+        "id": 6,
+        "floor": 4,
         "nameRoom": "ABCABC",
         "typeRoom": "SUPER VVIP",
         "quantity": 2,

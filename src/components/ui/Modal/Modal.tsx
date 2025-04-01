@@ -2,18 +2,19 @@ import { useState } from 'react'
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 // import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 // import InputField from '../InputField'; 
-import fielddata from '../Data/fielddata.json';
-import { InputFieldType } from '../Type/Type';
+import fielddata from '../../../Data/fielddata.json';
+import { InputFieldType } from '../../../types/Type';
 import InputField from '../InputField';
+import { roomItem } from '../../../types/Type';
 
 interface ModalProps {
-    visible: boolean;
-    onClose: () => void;
-  }
+  visible: boolean;
+  onClose: () => void;
+}
 
-
-export default function Modal({ visible, onClose}:ModalProps) {
+export default function Modal({ visible, onClose, room }: ModalProps  & { room: roomItem }) {
   const [listField, setListField] = useState<InputFieldType[]>(fielddata)
+  
   return (
     <Dialog open={visible} onClose={onClose} className="relative z-10">
       <DialogBackdrop
@@ -49,83 +50,31 @@ export default function Modal({ visible, onClose}:ModalProps) {
             </div> */}
 
             <div className='p-5'>
-                <h1 className='bg-blue-100 text-blue-700'>Thông tin lưu trú</h1>
-                <div className='w-[50%] flex flex-wrap'>
-                    {/* <div>
-                        <p>thời gian nhận phòng</p>
-                        <input className="border" type="datetime-local" autoComplete='true' disabled  />
-                    </div>
-                    <div>
-                        <p>thời gian trả phòng</p>
-                        <input className="border" type="datetime-local" />
-                    </div>
-                    <div>
-                        <p>lý do lưu trú</p>
-                        <input className="border" type="text" />
-                    </div>
-                    <InputField field={luutru}/>
-                    <div>
-                        <p>loại phòng</p>
-                        <input className="border" type="text" />
-                    </div>
-                    <div>
-                        <p>phòng</p>
-                        <input className="border" type="text" />
-                    </div>
-                    <div>
-                        <p>loại giá</p>
-                        <input className="border" type="text" />
-                    </div>
-                    <div>
-                        <p>giá phòng</p>
-                        <input className="border" type="text" />
-                    </div>
-                    <div>
-                        <p>ghi chú</p>
-                        <textarea className="border"/>
-                    </div> */}
-
-                    {
-                      listField[0].luutru.map((field)=>{
-                        return (
-                          <>
-                            <InputField field={field}/>
-                          </>
-                        )
-                      })
-                    }
-                </div>
-                <h1 className='bg-blue-100 text-blue-700'>Thông tin khách</h1>
-                <div className='w-[50%] flex flex-wrap'>
-                    {/* <p>họ tên</p>
-                    <p>giới tính</p>
-                    <p>ngày sinh</p>
-                    <p>số điện thoại</p>
-                    <p>loại giấy tờ</p>
-                    <p>số giấy tờ</p>
-                    <p>quốc tịch</p>
-                    <p>ghi chú</p>
-                    <p>nơi cư trú</p>
-                    <p>tỉnh thành phố</p>
-                    <p>quận/huyện</p>
-                    <p>phường/xã</p>
-                    <p>địa chỉ chi tiết</p>
-                    <p>nghề nghiệp</p>
-                    <p>nơi làm việc</p> */}
-
-{
-                      listField[0].thongtin.map((field)=>{
-                        return (
-                          <>
-                            <InputField field={field}/>
-                          </>
-                        )
-                      })
-                    }
-                </div>
+              <h1 className='bg-blue-100 text-blue-700 font-bold p-1'>Thông tin lưu trú</h1>
+              <div className='w-[50%] flex flex-wrap gap-2'>
+                {
+                  listField[0].luutru.map((field) => {
+                    return (
+                      <>
+                        <InputField field={field} roomItem={room}/>
+                      </>
+                    )
+                  })
+                }
+              </div>
+              <h1 className='bg-blue-100 text-blue-700 font-bold p-1 mt-4'>Thông tin khách</h1>
+              <div className='w-[50%] flex flex-wrap gap-2'>
+                {
+                  listField[0].thongtin.map((field) => {
+                    return (
+                      <>
+                        <InputField field={field} roomItem={room}/>
+                      </>
+                    )
+                  })
+                }
+              </div>
             </div>
-
-
             <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
               <button
                 type="button"

@@ -8,19 +8,33 @@ export type Room = {
     nameGuest: string,
 }
 
+export type roomItem = {
+    typeRoom: string,
+    nameGuest: string,
+    status: boolean
+}
+
 export type InputFieldType = {
     luutru:
         {
             fieldname: string,
             fieldtype: string,
-            choose: boolean
+            tag: string,
+            choose: boolean,
+            money: boolean,
+            placeholder: string,
+            require: boolean
         }[]
     ,
     thongtin: 
         {
             fieldname: string,
             fieldtype: string,
-            choose: boolean
+            tag: string,
+            choose: boolean,
+            money: boolean,
+            placeholder: string,
+            require: boolean
         }[]
     
 }

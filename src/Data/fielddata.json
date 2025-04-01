@@ -4,119 +4,211 @@
             {
                 "fieldname": "Thời gian nhận phòng",
                 "fieldtype": "datetime-local",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Thời gian trả phòng",
                 "fieldtype": "datetime-local",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Lý do lưu trú",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Loại phòng",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Phòng",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Loại giá",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": true,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Giá phòng",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": true,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Ghi chú",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "textarea",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             }
         ],
         "thongtin": [
             {
                 "fieldname": "Họ tên",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Giới tính",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Ngày sinh",
-                "fieldtype": "text",
-                "choose": false
+                "fieldtype": "date",
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Số điện thoại",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Loại giấy tờ",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Số giấy tờ",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Quốc tịch",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Ghi chú",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Nơi cư trú",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Tỉnh thành phố",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Quận/Huyện",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Phường/Xã",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Địa chỉ chi tiết",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Nghề nghiệp",
                 "fieldtype": "text",
-                "choose": true
+                "tag": "input",
+                "choose": true,
+                "money": false,
+                "placeholder":"",
+                "require": true
             },
             {
                 "fieldname": "Nơi làm việc",
                 "fieldtype": "text",
-                "choose": false
+                "tag": "input",
+                "choose": false,
+                "money": false,
+                "placeholder":"",
+                "require": true
             }
         ]
     }

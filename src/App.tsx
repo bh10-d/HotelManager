@@ -1,5 +1,5 @@
 
-import Floor from "./ManageFloor/Floor";
+import Floor from "./pages/ManageFloor/Floor";
 
 function App() {
 
